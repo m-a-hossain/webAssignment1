@@ -23,7 +23,17 @@ nav li{
     margin-right: 10px;
     font-size: 18px;
 }
-
+#big-hd{
+    padding-top: 20px;
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 80px;
+}
+#btn{
+    padding: 20px 50px;
+}
 /*================= header and nav style end ======================= */
 
 .firstSection{ overflow: hidden;
@@ -41,6 +51,7 @@ nav li{
 }
 .first{
     background-color: rgb(212, 216, 151);
+  
 }
 .fourth{
     background-color: rgb(96, 131, 85);

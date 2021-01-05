@@ -1,0 +1,85 @@
+body{
+    margin:0 auto;
+    padding: 0%;
+    background-color: rgb(60, 184, 184);
+}
+
+/*================= header and nav style======================= */
+section{clear: both;}
+header{
+    border: .5px solid;
+    padding: 10px;
+    height: 50px;
+}
+nav{ float: right;margin:0 auto;
+    border: .5px red;
+    width: 350px;height: 40px;
+    background-color: rgb(135, 135, 216);
+}
+nav li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/*================= header and nav style end ======================= */
+
+.firstSection{ overflow: hidden;
+     margin: 0 auto;
+    height: 1200px; width: 80%;
+    background-color: cadetblue;
+   
+}
+ 
+.firstSection div{
+  
+    width: 50%;height: 50%;
+    float: left;
+   /*  border: .5px solid; */
+}
+.first{
+    background-color: rgb(212, 216, 151);
+}
+.fourth{
+    background-color: rgb(96, 131, 85);
+}
+.secondSection{
+    margin: 0 auto;
+    height: 800px; width: 80%;
+    background-color: rgb(212, 224, 179);
+}
+
+.upper{
+    height: 20%;background-color: cornsilk;
+}
+.lower{
+    height: 80%;background-color: darkgray;
+}
+.lower div{border: .5px solid blue;
+    margin:15% 1%;
+    width: 30%;
+    height: 50%;
+    float: left;
+}
+.thirdSection{
+    margin: 0 auto;
+    height: 600px; width: 80%;
+    background-color: rgb(181, 185, 204);
+}
+.expart div{border: .5px solid rgb(56, 16, 54);
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+.footer{
+    margin: 0 auto;
+    height: 800px; width: 80%;
+    background-color: rgb(214, 136, 191);
+}
+.footer div{height: 50%; float: left;clear: both;}
+
+.below{
+    background-color: cadetblue;
+}

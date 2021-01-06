@@ -1,26 +1,19 @@
 body{
     margin:0 auto;
     padding: 0%;
-  /*   background-color: rgb(60, 184, 184); */
+ 
 }
-
+section{margin: 0;}
 /*================= header and nav style======================= */
 section{clear: both;}
 header{
-   /*  border: .5px solid; */
     padding: 10px;
     height: 50px;
 }
-/* section::after{
-    content: "";
-    display: table;
-    clear: both;
-} */
-section{margin: 0;}
+
+
 nav{ float: right;margin:0 auto;
- 
-    width: 350px;height: 40px;
-    
+     width: 350px;height: 40px; 
 }
 nav li{
     text-decoration: none;
@@ -32,11 +25,12 @@ nav li{
 #big-hd{
     padding-top: 20px;
     font-family: Bebas Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 80px;
-}
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    color:red;
+    }
 #btn{
     margin-top: 20px;
     padding: 20px 30px;
@@ -44,6 +38,8 @@ line-height: 80px;
     font-size:18px;
     border-radius: 10px;
     border-style: none;
+    background-color: rgb(224, 91, 162);
+    color: ghostwhite;
 }
 #btn1{
     margin-top: 20px;
@@ -52,6 +48,8 @@ line-height: 80px;
     font-size:14px;
     border-radius: 10px;
     border-style: none;
+    background-color: rgb(224, 91, 162);
+    color: lavenderblush;
 }
 /*================= header and nav style end ======================= */
 
@@ -68,6 +66,16 @@ line-height: 80px;
     float: left;
    /*  border: .5px solid; */
 }
+#color1{
+    color: chocolate;
+}
+.color2{
+    color: rgb(143, 9, 9);
+}
+.color3{
+    color: chocolate;
+}
+
 /* .first{
     background-color: rgb(212, 216, 151);
   
@@ -90,13 +98,13 @@ line-height: 80px;
 .lower{
     background-color: darkgray;
 }
-.lower div{border: .5px solid blue;
+.lower div{/* border: .5px solid blue; */
    margin:10px;
     width:380px;
     height:400px;
     float: left;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px 5px gray;
    
 }
 .thirdSection{
@@ -110,7 +118,7 @@ line-height: 80px;
     height: 430px;
     float: left;padding:10px;
     margin: 10px;
-    /* background-color: grey; */
+    background-image: linear-gradient(180deg, rgb(235, 130, 130), rgb(253, 238, 170));
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
 }
@@ -135,7 +143,7 @@ line-height: 80px;
 font-style: normal;
 font-weight: bold;
 font-size: 60px;
-line-height: 80px;  
+line-height: 80px; color: rgb(231, 142, 26);
 }
 .fourth p{
   text-align: left;

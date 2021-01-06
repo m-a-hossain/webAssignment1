@@ -4,7 +4,7 @@ body{
  
 }
 section{margin: 0;}
-/*================= header and nav style======================= */
+/*--------header and nav style-------------*/
 section{clear: both;}
 header{
     padding: 10px;
@@ -21,6 +21,20 @@ nav li{
     display: inline;
     margin-right: 10px;
     font-size: 18px;
+}
+
+
+/* --------------section 1 --------*/
+
+
+.firstSection{ overflow: hidden;
+    margin: 0 auto;
+   height: 1200px; width: 80%;
+}
+
+.firstSection div{
+   width: 50%;height: 50%;
+   float: left;
 }
 #big-hd{
     padding-top: 20px;
@@ -51,23 +65,35 @@ nav li{
     background-color: rgb(224, 91, 162);
     color: lavenderblush;
 }
-/*================= header and nav style end ======================= */
 
-.firstSection{ overflow: hidden;
-     margin: 0 auto;
-    height: 1200px; width: 80%;
-  /*   background-color: cadetblue; */
-   
-}
- 
-.firstSection div{
-  
-    width: 50%;height: 50%;
-    float: left;
-   /*  border: .5px solid; */
-}
 #color1{
     color: chocolate;
+}
+#img1{
+    position: relative;
+    background-position:
+    center;margin-top: 70px;
+}
+#img2{
+  float: left;
+}
+#sm-hd{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px; 
+    color: rgb(231, 142, 26);
+}
+
+
+
+/* ---section 2 ---- */
+
+
+.secondSection{
+    margin: 0 auto;
+    height: 800px; width: 80%;
 }
 .color2{
     color: rgb(143, 9, 9);
@@ -76,29 +102,26 @@ nav li{
     color: chocolate;
 }
 
-/* .first{
-    background-color: rgb(212, 216, 151);
-  
-} */
 .fourth{
-   /*  background-color: rgb(96, 131, 85); */
+  
     padding-top: 100px;
 }
-.secondSection{
+#img3{
+    padding: 20px 20px 10px 20px;
+}
+
+
+
+/* --------------------section 3--------------------- */
+
+.thirdSection{
     margin: 0 auto;
     height: 800px; width: 80%;
-   /*  background-color: rgb(212, 224, 179); */
 }
-/* .secondSection::after{
-    content: "";
-    display: table;
-    clear: both;
-} */
-
 .lower{
     background-color: darkgray;
 }
-.lower div{/* border: .5px solid blue; */
+.lower div{
    margin:10px;
     width:380px;
     height:400px;
@@ -107,13 +130,7 @@ nav li{
     box-shadow: 5px 5px 5px 5px gray;
    
 }
-.thirdSection{
-    margin: 0 auto;
-    height: 800px; width: 80%;
-/*     background-color: rgb(181, 185, 204); */
-}
 .expart div{
-    /* border: .5px solid rgb(56, 16, 54); */
     width: 330px;
     height: 430px;
     float: left;padding:10px;
@@ -122,53 +139,14 @@ nav li{
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgb(199, 197, 197);
 }
-.footer{
-    margin: 0 auto;
-    height: 600px; width: 80%;
- /*    background-color: rgb(214, 136, 191); */
-}
-.footer div{height: 50%; float: left;clear: both;}
-
-
-#img1{/* border: .5px solid; */
-    position: relative;
-    background-position: center;margin-top: 70px;
-}
-#img2{
-   /*  border: .5px solid; */float: left;
-}
-#sm-hd{
- 
-    font-family: Bebas Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 80px; color: rgb(231, 142, 26);
-}
-.fourth p{
-  text-align: left;
-  width: 500px;
-} 
 #sm-hd2{padding-top: 100px;
     font-family: Bebas Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 70px;  letter-spacing:2px;
-text-align: center;
-}
-#img3{
-    padding: 20px 20px 10px 20px;
-}
-#worHD{
-    font-weight: bolder;
-    padding-left: 20px;
-}
-.lower div p{
-    font-size: 18px;
-    text-align: left;
-    padding-left: 20px;
-    line-height: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 70px;  
+    letter-spacing:2px;
+    text-align: center;
 }
 #dd1{
     margin-left: 55px;
@@ -180,28 +158,80 @@ text-align: center;
 #hd2{
     text-align: center;
 }
-.expart div p{
- text-align:left;
- font-size: 18px;
- padding-left: 20px;
+
+
+#worHD{
+    font-weight: bolder;
+    padding-left: 20px;
 }
+.lower div p{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+.expart div p{
+    text-align:left;
+    font-size: 18px;
+    padding-left: 20px;
+}
+/* --------------------footer section------------------ */
+
+
+.footer{
+    margin: 0 auto;
+    height: 600px; width: 80%;
+}
+.footer div{height: 50%;
+            float: left;clear: both;
+        }
+.footer1{width: 100%;
+         height: auto;
+         margin-bottom: 0;
+        }
+.footerHead{
+         text-align: center;
+         font-size: 18px;
+         text-transform: uppercase;
+         line-height:40px;
+         color: lightslategrey;
+}
+.email{
+         text-align: center; 
+         position: relative;
+         font-size:40px;
+         font-weight: bolder;
+         color: orangered;
+}
+
+
+
+.fourth p{
+        text-align: left;
+        width: 500px;
+    } 
 .img4{
-    position: relative;
-   margin-top:50px;margin-left: 100px;clear: both;
+        position: relative;
+        margin-top:50px;
+        margin-left: 100px;
+        clear: both;
 }
 .img4 #left{
-    top: 0;left: 0;margin-top: 40px;margin-left: 120px;
-    position: absolute;
-    font-size: 20px;
-    text-transform: uppercase;
+        top: 0;left: 0;
+        margin-top: 40px;
+        margin-left: 120px;
+        position: absolute;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: azure;
+        font-family: Bebas Neue; 
 }
 .img4 #right{
-    top: 0;right: 0;margin-top: 60px;margin-right: 120px;
-    position: absolute;
+        top: 0;right: 0;
+        margin-top: 60px;
+        margin-right: 120px;
+        position: absolute;
   
 }
-/* #icon{
-   
-    margin-left: 300px;
-}
- */

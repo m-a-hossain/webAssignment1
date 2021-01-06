@@ -11,14 +11,14 @@ header{
     padding: 10px;
     height: 50px;
 }
-section::after{
+/* section::after{
     content: "";
     display: table;
     clear: both;
-}
+} */
 section{margin: 0;}
 nav{ float: right;margin:0 auto;
-    border: .5px red;
+    border: .5px red;/* padding-top: 10px; */
     width: 350px;height: 40px;
     background-color: rgb(135, 135, 216);
 }
@@ -42,6 +42,14 @@ line-height: 80px;
     padding: 20px 30px;
     font-weight: 700;
     font-size:18px;
+    border-radius: 10px;
+    border-style: none;
+}
+#btn1{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size:14px;
     border-radius: 10px;
     border-style: none;
 }
@@ -107,14 +115,12 @@ line-height: 80px;
 }
 .footer{
     margin: 0 auto;
-    height: 800px; width: 80%;
+    height: 600px; width: 80%;
     background-color: rgb(214, 136, 191);
 }
 .footer div{height: 50%; float: left;clear: both;}
 
-.below{
-    background-color: cadetblue;
-}
+
 #img1{border: .5px solid;
     position: relative;
     background-position: center;
@@ -139,7 +145,7 @@ line-height: 80px;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
-line-height: 90px;  letter-spacing:2px;
+line-height: 70px;  letter-spacing:2px;
 text-align: center;
 }
 #img3{
@@ -158,3 +164,35 @@ text-align: center;
 #dd1{
     margin-left: 55px;
 }
+.expart button{
+    text-align: center;
+    margin: 0 auto;
+}
+#hd2{
+    text-align: center;
+}
+.expart div p{
+ text-align:left;
+ font-size: 18px;
+ padding-left: 20px;
+}
+.img4{
+    position: relative;
+   margin-top:50px;margin-left: 100px;clear: both;
+}
+.img4 #left{
+    top: 0;left: 0;margin-top: 40px;margin-left: 120px;
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.img4 #right{
+    top: 0;right: 0;margin-top: 60px;margin-right: 120px;
+    position: absolute;
+  
+}
+/* #icon{
+   
+    margin-left: 300px;
+}
+ */

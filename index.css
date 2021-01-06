@@ -11,6 +11,12 @@ header{
     padding: 10px;
     height: 50px;
 }
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+section{margin: 0;}
 nav{ float: right;margin:0 auto;
     border: .5px red;
     width: 350px;height: 40px;
@@ -28,11 +34,16 @@ nav li{
     font-family: Bebas Neue;
 font-style: normal;
 font-weight: bold;
-font-size: 80px;
+font-size: 60px;
 line-height: 80px;
 }
 #btn{
-    padding: 20px 50px;
+    margin-top: 20px;
+    padding: 20px 30px;
+    font-weight: 700;
+    font-size:18px;
+    border-radius: 10px;
+    border-style: none;
 }
 /*================= header and nav style end ======================= */
 
@@ -55,34 +66,44 @@ line-height: 80px;
 }
 .fourth{
     background-color: rgb(96, 131, 85);
+    padding-top: 100px;
 }
 .secondSection{
     margin: 0 auto;
     height: 800px; width: 80%;
     background-color: rgb(212, 224, 179);
 }
+/* .secondSection::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
 
-.upper{
-    height: 20%;background-color: cornsilk;
-}
 .lower{
-    height: 80%;background-color: darkgray;
+    background-color: darkgray;
 }
 .lower div{border: .5px solid blue;
-    margin:15% 1%;
-    width: 30%;
-    height: 50%;
+   margin:10px;
+    width:380px;
+    height:400px;
     float: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+   
 }
 .thirdSection{
     margin: 0 auto;
-    height: 600px; width: 80%;
+    height: 800px; width: 80%;
     background-color: rgb(181, 185, 204);
 }
 .expart div{border: .5px solid rgb(56, 16, 54);
-    width: 30%;
-    height: 70%;
-    float: left;
+    width: 330px;
+    height: 430px;
+    float: left;padding:10px;
+    margin: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
 }
 .footer{
     margin: 0 auto;
@@ -93,4 +114,47 @@ line-height: 80px;
 
 .below{
     background-color: cadetblue;
+}
+#img1{border: .5px solid;
+    position: relative;
+    background-position: center;
+}
+#img2{
+    border: .5px solid;
+}
+#sm-hd{
+ 
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 80px;  
+}
+.fourth p{
+  text-align: left;
+  width: 500px;
+} 
+#sm-hd2{padding-top: 100px;
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 90px;  letter-spacing:2px;
+text-align: center;
+}
+#img3{
+    padding: 20px 20px 10px 20px;
+}
+#worHD{
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.lower div p{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 20px;
+}
+#dd1{
+    margin-left: 55px;
 }
